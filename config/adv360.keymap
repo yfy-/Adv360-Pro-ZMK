@@ -72,21 +72,21 @@
 
         fun {
             bindings = <
-&none  &none     &none         &none             &none           &none  &none                                       &none       &none            &none               &none                 &none             &none                  &none
-&none  &none     &none         &none             &none           &none  &none                                       &none       &kp PRINTSCREEN  &kp F7              &kp F8                &kp F9            &kp F12                &none
-&none  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none   &none  &none      &none  &kp TAB    &none       &kp SCROLLLOCK   &hm RIGHT_SHIFT F4  &hm RIGHT_CONTROL F5  &hm RIGHT_ALT F6  &hm RIGHT_COMMAND F11  &none
+&none  &none     &none         &none             &none           &none  &none                                        &none      &none            &none               &none                 &none             &none                  &none
+&none  &none     &none         &none             &none           &none  &none                                        &none      &kp PRINTSCREEN  &kp F7              &kp F8                &kp F9            &kp F12                &none
+&none  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none   &none  &none      &none  &kp K_MENU  &none      &kp SCROLLLOCK   &hm RIGHT_SHIFT F4  &hm RIGHT_CONTROL F5  &hm RIGHT_ALT F6  &hm RIGHT_COMMAND F11  &none
 &none  &none     &none         &none             &none           &none                 &none      &none                         &kp PAUSE_BREAK  &kp F1              &kp F2                &kp F3            &kp F10                &none
-&none  &none     &none         &none             &none                  &trans  &none  &none      &none  &kp SPACE  &kp C_MENU                   &none               &none                 &none             &none                  &none
+&none  &none     &none         &none             &none                  &trans  &none  &none      &none  &kp TAB     &kp SPACE                   &none               &none                 &none             &none                  &none
             >;
         };
 
         num {
             bindings = <
-&none  &none     &none         &none             &none           &none  &none                                       &none    &none             &none                     &none                 &none                   &none                        &none
-&none  &none     &none         &none             &none           &none  &none                                       &none    &kp LEFT_BRACKET  &kp N7                    &kp N8                &kp N9                  &kp RIGHT_BRACKET            &none
-&none  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none  &none   &none      &none  &kp MINUS  &none    &kp EQUAL         &hm RIGHT_SHIFT NUMBER_4  &hm RIGHT_CONTROL N5  &hm RIGHT_ALT NUMBER_6  &hm RIGHT_COMMAND SEMICOLON  &none
+&none  &none     &none         &none             &none           &none  &none                                        &none   &none             &none                     &none                 &none                   &none                        &none
+&none  &none     &none         &none             &none           &none  &none                                        &none   &kp LEFT_BRACKET  &kp N7                    &kp N8                &kp N9                  &kp RIGHT_BRACKET            &none
+&none  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none  &none   &none      &none  &kp PERIOD  &none   &kp EQUAL         &hm RIGHT_SHIFT NUMBER_4  &hm RIGHT_CONTROL N5  &hm RIGHT_ALT NUMBER_6  &hm RIGHT_COMMAND SEMICOLON  &none
 &none  &none     &none         &none             &none           &none                 &none      &none                      &kp BACKSLASH     &kp NUMBER_1              &kp NUMBER_2          &kp NUMBER_3            &kp GRAVE                    &none
-&none  &none     &none         &none             &none                  &none  &trans  &none      &none  &kp N0     &kp DOT                    &none                     &none                 &none                   &none                        &none
+&none  &none     &none         &none             &none                  &none  &trans  &none      &none  &kp MINUS   &kp N0                    &none                     &none                 &none                   &none                        &none
             >;
         };
 
@@ -94,9 +94,9 @@
             bindings = <
 &none  &none     &none         &none             &none           &none  &none                                       &none     &none           &none                   &none                      &none                &none                    &none
 &none  &none     &none         &none             &none           &none  &none                                       &none     &kp LEFT_BRACE  &kp AMPERSAND           &kp ASTRK                  &kp LPAR             &kp RIGHT_BRACE          &none
-&none  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none  &none  &none       &none  &kp UNDER  &none     &kp PLUS        &hm RIGHT_SHIFT DOLLAR  &hm RIGHT_CONTROL PERCENT  &hm RIGHT_ALT CARET  &hm RIGHT_COMMAND COLON  &none
+&none  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none  &none  &none       &none  &kp RPAR   &none     &kp PLUS        &hm RIGHT_SHIFT DOLLAR  &hm RIGHT_CONTROL PERCENT  &hm RIGHT_ALT CARET  &hm RIGHT_COMMAND COLON  &none
 &none  &none     &none         &none             &none           &none                &none       &none                       &kp PIPE        &kp EXCL                &kp AT                     &kp HASH             &kp TILDE                &none
-&none  &none     &none         &none             &none                  &none  &none  &trans      &none  &kp LPAR   &kp RPAR                  &none                   &none                      &none                &none                    &none
+&none  &none     &none         &none             &none                  &none  &none  &trans      &none  &kp UNDER  &kp LPAR                  &none                   &none                      &none                &none                    &none
             >;
         };
 
