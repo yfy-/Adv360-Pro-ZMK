@@ -5,6 +5,13 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&lt {
+    tapping-term-ms = <180>;
+    quick-tap-ms = <160>;
+    require-prior-idle-ms = <0>;
+    flavor = "balanced";
+};
+
 / {
     behaviors {
         #include "macros.dtsi"
@@ -14,10 +21,12 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <175>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <180>;
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
+
+            quick-tap-ms = <160>;
+            require-prior-idle-ms = <0>;
         };
     };
 
